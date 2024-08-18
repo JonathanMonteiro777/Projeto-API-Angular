@@ -1,0 +1,22 @@
+mat-toolbar{
+  background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(1, 0, 19) 0%, rgb(14, 14, 102) 35%, rgb(1, 106, 127) 100%);
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+span{
+    padding: 10px;
+}
+
+  img{
+    height: 50px;
+    width: 50px;  
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
