@@ -1,8 +1,8 @@
-# LH Games
+# JM Games
 
 ## Descrição do Projeto
 
-Este projeto, **LH Games**, foi desenvolvido como parte de um curso SENAI, com o objetivo principal de guiar o aprendizado na **estrutura de projetos Angular CLI**, na **interação com APIs**, na **documentação de APIs** e no **tratamento de erros amigáveis ao usuário**. Além disso, o projeto introduz e explora conceitos fundamentais de **segurança da informação**, como a criptografia assimétrica, que são cruciais para o desenvolvimento de aplicações robustas e seguras.
+Este projeto, **JM Games**, foi desenvolvido durante o curso de **Desenvolvimento Web FullStack** do **SENAI**, com o objetivo principal de guiar o aprendizado na **estrutura de projetos Angular CLI**, na **interação com APIs**, na **documentação de APIs** e no **tratamento de erros amigáveis ao usuário**. Além disso, o projeto introduz e explora conceitos fundamentais de **segurança da informação**, como a criptografia assimétrica, que são cruciais para o desenvolvimento de aplicações robustas e seguras.
 
 Ele abrange desde a construção de um layout responsivo, passando pela criação e consumo completo de uma API local simulada (`json-server`), a formalização dessa API através de documentação, até a implementação de um sistema de feedback visual para o usuário e a compreensão de princípios de segurança.
 
@@ -75,7 +75,7 @@ Este projeto proporciona uma compreensão completa do ciclo de vida de desenvolv
 
 * **Página Inicial (Home)**: Com um **Carousel** de banners e uma seção de **Cards de Jogos** (usando Angular Material Card e Grid List).
 * **Página de Login**: Formulário de login básico (usando Bootstrap Form Control).
-* **Menu de Navegação (Toolbar)**: Com links para "Produtos" (Home) e "Login", e o logo da LH Games.
+* **Menu de Navegação (Toolbar)**: Com links para "Produtos" (Home) e "Login", e o logo da JM Games.
 * **Rodapé**: Seção inferior básica com informações de desenvolvimento.
 * **Navegação por Rotas**: Configuração de rotas para navegação fluida entre as páginas.
 * **Favicon Personalizado**: Ícone de aba de navegador personalizado.
@@ -102,8 +102,8 @@ Este projeto proporciona uma compreensão completa do ciclo de vida de desenvolv
 
 * **Criação de Documentação**: Utilização do **Swagger Editor** para desenvolver e validar a documentação da API.
 * **Estrutura OpenAPI 3.0.3**:
-    * **Info**: Detalhes sobre a API "LH Games - Consumo", descrição para consumo de produtos, termos de serviço e contato.
-    * **Servers**: Definição de um servidor de produção (`http://api.lhgames.com/v1`).
+    * **Info**: Detalhes sobre a API "JM Games - Consumo", descrição para consumo de produtos, termos de serviço e contato.
+    * **Servers**: Definição de um servidor de produção (`http://api.jmgames.com/v1`).
     * **Paths**: Documentação de endpoints como `/produtos` para `GET` (retorno) e `POST` (adição), incluindo schemas de exemplo e respostas HTTP.
 * **Visualização e Validação**: Capacidade de visualizar a documentação em HTML e identificar erros de sintaxe em tempo real através do Swagger Editor.
 * **Formatos**: Conhecimento e uso dos formatos JSON e YAML para a especificação da API.
@@ -139,11 +139,11 @@ Certifique-se de ter o **Node.js**, **Angular CLI** e **Git** instalados globalm
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [##]
+    git clone [Projeto-API-Angular](https://github.com/JonathanMonteiro777/Projeto-API-Angular/edit/main/README.md)
     ```
 2.  **Navegue até o diretório raiz do projeto:**
     ```bash
-    cd lh-games
+    cd jm-games
     ```
 3.  **Instale as dependências do projeto Angular:**
     ```bash
@@ -153,14 +153,14 @@ Certifique-se de ter o **Node.js**, **Angular CLI** e **Git** instalados globalm
 ### Execução
 
 1.  **Inicie a API simulada com json-server:**
-    Abra um novo terminal (CMD ou Git Bash) na raiz do projeto (`lh-games/`) e execute:
+    Abra um novo terminal (CMD ou Git Bash) na raiz do projeto (`jm-games/`) e execute:
     ```bash
     json-server --watch db.json
     ```
     Isso iniciará a API em `http://localhost:3000/clientes` e outros endpoints que você tiver configurado no `db.json`.
 
 2.  **Inicie o servidor de desenvolvimento do Angular:**
-    Em **outro terminal** (CMD ou Git Bash), também na raiz do projeto (`lh-games/`), execute:
+    Em **outro terminal** (CMD ou Git Bash), também na raiz do projeto (`jm-games/`), execute:
     ```bash
     ng serve
     ```
@@ -185,7 +185,7 @@ Este projeto foi publicado no GitHub, seguindo os passos de inicialização de u
 * `git status`
 * `git add .`
 * `git commit -m "Mensagem do commit"`
-* `git remote add origin [#]`
+* `git remote add origin [main]`
 * `git push -u origin master`
 
 ---
@@ -206,7 +206,7 @@ O projeto está robusto e pronto para ser expandido com funcionalidades adiciona
 
 Conecte-se e saiba mais sobre o meu trabalho:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/perfil-linkedin)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/Jonathanlucas777)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-lucas-34684a1a4/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jonathanlucas777)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/37991042878)
 
